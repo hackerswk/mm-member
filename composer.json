@@ -1,0 +1,22 @@
+{
+    "name": "stanleysie/mm-member",
+    "description": "Custom register and login of member system.",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "ext-pdo_mysql": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stanleysie\\MmMember\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanley Sie",
+            "email": "swookon@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
